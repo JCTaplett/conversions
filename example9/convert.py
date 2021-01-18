@@ -1,12 +1,22 @@
-#!/usr/bin/env python3
+import csv
+import datetime
 
-# read input.txt as a text file and skip the first few lines until it reaches the actual data
+INPUT_DATE_FORMAT = '%Y-%m-%d'
+OUTPUT_DATE_FORMAT = "%-d-%b-%y"
 
-# use the string `.split()` method on each line to split the two columns. this file is a "fixed width" text file
-# so the csv module cannot handle it. there is no consistent delimeter such as a tab character or
-# comma, instead there are variable number of spaces in between the two columns
+with open('input.txt') as f:
+    lines = f.read().splitlines()[15:]
 
-# use the datetime module to convert the dates. see http://strftime.org/
-# be wary of the two numbered year and see if that causes any problems in the interactive
+with open('output.tsv', 'w') as f:
+    writer = csv.writer(f, delimiter='\t')
+    writer.writerow(['date', 'close'])
 
-# write the output to a file, output.tsv
+    for line in lines:
+        date, value = line.split()
+        parsed_date = datetime.datetime.strptime(date, INPUT_DATE_FORMAT)
+        output_date = parsed_date.strftime(OUTPUT_DATE_FORMAT)
+        
+        if parsed_date.year < 1970:
+            continue
+
+        writer.writerow([output_date, value])
