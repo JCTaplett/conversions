@@ -1,0 +1,127 @@
+  1. "title"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         5
+	Longest value:         13 characters
+	Most common values:    Revenue (1x)
+	                       Profit (1x)
+	                       Order Size (1x)
+	                       New Customers (1x)
+	                       Satisfaction (1x)
+
+  2. "subtitle"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         5
+	Longest value:         17 characters
+	Most common values:    US$, in thousands (1x)
+	                       % (1x)
+	                       US$ average (1x)
+	                       count (1x)
+	                       out of 5 (1x)
+
+  3. "range_min"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        3.5
+	Largest value:         1,400
+	Sum:                   1,923.5
+	Mean:                  384.7
+	Median:                150
+	StDev:                 584.261
+	Most common values:    150 (1x)
+	                       20 (1x)
+	                       350 (1x)
+	                       1,400 (1x)
+	                       3.5 (1x)
+
+  4. "range_mid"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        4.25
+	Largest value:         2,000
+	Sum:                   2,754.25
+	Mean:                  550.85
+	Median:                225
+	StDev:                 834.28
+	Most common values:    225 (1x)
+	                       25 (1x)
+	                       500 (1x)
+	                       2,000 (1x)
+	                       4.25 (1x)
+
+  5. "range_max"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        5
+	Largest value:         2,500
+	Sum:                   3,435
+	Mean:                  687
+	Median:                300
+	StDev:                 1,041.763
+	Most common values:    300 (1x)
+	                       30 (1x)
+	                       600 (1x)
+	                       2,500 (1x)
+	                       5 (1x)
+
+  6. "measure_min"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        3.2
+	Largest value:         1,000
+	Sum:                   1,344.2
+	Mean:                  268.84
+	Median:                100
+	StDev:                 417.575
+	Most common values:    220 (1x)
+	                       21 (1x)
+	                       100 (1x)
+	                       1,000 (1x)
+	                       3.2 (1x)
+
+  7. "measure_max"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        4.7
+	Largest value:         1,650
+	Sum:                   2,267.7
+	Mean:                  453.54
+	Median:                270
+	StDev:                 683.714
+	Most common values:    270 (1x)
+	                       23 (1x)
+	                       320 (1x)
+	                       1,650 (1x)
+	                       4.7 (1x)
+
+  8. "markers"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         5
+	Smallest value:        4.4
+	Largest value:         2,100
+	Sum:                   2,930.4
+	Mean:                  586.08
+	Median:                250
+	StDev:                 874.392
+	Most common values:    250 (1x)
+	                       26 (1x)
+	                       550 (1x)
+	                       2,100 (1x)
+	                       4.4 (1x)
+
+Row count: 5
